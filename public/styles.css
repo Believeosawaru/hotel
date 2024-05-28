@@ -52,8 +52,8 @@ section img {
     justify-items: center;
 }
 section {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-items: center;
     margin: 40px 20px;
 }
 .card {
