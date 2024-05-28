@@ -22,7 +22,6 @@ header h3 {
 nav {
     background: darkslateblue;
     width: 100%;
-    opacity: 0.9;
     color: white;
     padding: 15px 15px;
     text-align: left;
@@ -49,8 +48,8 @@ section img {
     margin-block: 25px;
 }
 .centered {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-items: center;
 }
 section {
     display: flex;
