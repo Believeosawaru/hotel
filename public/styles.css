@@ -22,12 +22,19 @@ header h3 {
 nav {
     background: darkslateblue;
     width: 100%;
+    opacity: .8;
     color: white;
     padding: 15px 15px;
     text-align: left;
     font-weight: bold;
     position: fixed;
     top: 0;
+}
+nav i {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #abdafc;
 }
 h3 span {
     color: darkslateblue;
@@ -71,6 +78,7 @@ section {
 }
 .card:hover {
     background: darkslateblue;
+    opacity: .7;
     color: white;
 }
 .card h3 {
@@ -82,7 +90,6 @@ section {
     margin: 10px 0px 0px 0px;
 }
 aside { 
-    /* background: white; */
     color: black;
     padding: 10px;
     border-top-left-radius: 10px;
@@ -100,7 +107,6 @@ aside div {
 .gallery-images {
     display: grid;
     justify-items: center;
-    background: #abdafc;
     padding: 10px;
     margin-block: 10px;
 }
