@@ -32,9 +32,9 @@ nav {
 }
 nav i {
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 15px;
-    color: #abdafc;
+    color: #fff;
 }
 h3 span {
     color: darkslateblue;
@@ -78,7 +78,7 @@ section {
 }
 .card:hover {
     background: darkslateblue;
-    opacity: .7;
+    opacity: .9;
     color: white;
 }
 .card h3 {
