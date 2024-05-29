@@ -111,6 +111,6 @@ aside div {
     margin-block: 10px;
 }
 .gallery-images img { 
-    margin: 10px;
+    margin-block: 10px;
     border-radius: 3px;
 }
