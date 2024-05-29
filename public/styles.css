@@ -26,6 +26,8 @@ nav {
     padding: 15px 15px;
     text-align: left;
     font-weight: bold;
+    position: fixed;
+    top: 0;
 }
 h3 span {
     color: darkslateblue;
@@ -62,7 +64,7 @@ section {
     border: 1px solid darkslateblue;
     color: black;
     margin: 10px 10px;
-    width: 80%;
+    width: 90%;
     height: 210px;
     text-align: center;
     border-radius: 8px;
@@ -96,10 +98,13 @@ aside div {
     justify-items: center;
 }
 .gallery-images {
+    display: grid;
+    justify-items: center;
     background: #abdafc;
     padding: 10px;
-    margin-block: 20px;
+    margin-block: 10px;
 }
 .gallery-images img { 
     margin: 10px;
+    border-radius: 3px;
 }
