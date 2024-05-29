@@ -79,3 +79,27 @@ section {
     height: 150px;
     margin: 10px 0px 0px 0px;
 }
+aside { 
+    /* background: white; */
+    color: black;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+aside h2, p { 
+    text-align: center;
+}
+aside div {
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+}
+.gallery-images {
+    background: #abdafc;
+    padding: 10px;
+    margin-block: 20px;
+}
+.gallery-images img { 
+    margin: 10px;
+}
