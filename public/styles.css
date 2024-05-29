@@ -22,18 +22,19 @@ header h3 {
 nav {
     background: darkslateblue;
     width: 100%;
-    opacity: .8;
+    opacity: .9;
     color: white;
     padding: 20px 15px;
     text-align: left;
     font-weight: bold;
     position: fixed;
     top: 0;
+    z-index: 100000;
 }
 nav i {
     position: absolute;
     top: 20px;
-    right: 15px;
+    right: 20px;
     color: #fff;
 }
 h3 span {
@@ -95,6 +96,9 @@ aside {
     border-top-left-radius: 10px;
     display: flex;
     justify-content: center;
+}
+aside h2 {
+    color: darkslateblue;
 }
 aside h2, p { 
     text-align: center;
