@@ -14,7 +14,7 @@ body {
     top: 0;
     z-index: 1111111;
     height: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     visibility: hidden;
     opacity: 0;
     margin-left: 350px;
