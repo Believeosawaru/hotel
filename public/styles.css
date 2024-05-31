@@ -117,4 +117,5 @@ aside div {
 .gallery-images img { 
     margin-block: 10px;
     border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px #447ba0;
 }
