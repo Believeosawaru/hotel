@@ -8,13 +8,14 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 .menu {
-    background: #abdafc;
+    /* background: #abdafc; */
+    background: darkslateblue;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1111111;
     height: 100%;
-    /* padding: 20px; */
+    padding: 20px;
     visibility: hidden;
     opacity: 0;
     margin-left: 350px;
@@ -28,26 +29,24 @@ body {
 .menu p {
     text-align: center;
     line-height: 2em;
-    color: black;
-    background: #95c4e6;
+    color: white;
+    background: rgb(64, 53, 136);
     margin: 2px 5px;
     padding: 8px 8px 8px 20px;
     font-weight: light;
 }
-.menu p:last-child {
-    border-bottom: none;
-}
 .menu button {
-    background: #95c4e6;
+    background: rgb(64, 53, 136);
     border: none;
-    padding: 3px 10px;
-    color: black;
+    padding: 5px 50px;
+    color: white;
     margin: 5px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 .menu div {
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 header {
     display: grid;
