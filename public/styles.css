@@ -28,17 +28,17 @@ body {
 .menu p {
     text-align: left;
     line-height: 2em;
-    background: darkslateblue;
-    color: white;
+    background: #95c4e6;
+    color: black;
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
 }
 .menu button {
-    background: darkslateblue;
+    background: #95c4e6;
     border: none;
     padding: 3px 10px;
-    color: white;
+    color: black;
     margin: 5px;
     border-radius: 5px;
 }
