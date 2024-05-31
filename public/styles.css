@@ -7,6 +7,45 @@ body {
     background-color: #abdafc;
     font-family: "Roboto Condensed", sans-serif;
 }
+.menu {
+    background: #abdafc;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1111111;
+    height: 100%;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    margin-left: 350px;
+    transition: all 1s ease;
+}
+.menu-transit {
+    margin-left: 0px;
+    visibility: visible;
+    opacity: 1;
+}
+.menu p {
+    text-align: left;
+    line-height: 2em;
+    background: darkslateblue;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu button {
+    background: darkslateblue;
+    border: none;
+    padding: 3px 10px;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+.menu div {
+    display: flex;
+    justify-content: right;
+}
 header {
     display: grid;
     justify-items: center;
@@ -61,6 +100,10 @@ section img {
     display: grid;
     justify-items: center;
 }
+.flexy {
+    display: flex;
+    justify-content: center;
+}
 section {
     display: grid;
     justify-items: center;
@@ -81,6 +124,7 @@ section {
     background: darkslateblue;
     opacity: .9;
     color: white;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(51, 34, 165);
 }
 .card h3 {
     margin: -5px 10px 10px 10px;
@@ -112,10 +156,8 @@ aside div {
     display: grid;
     justify-items: center;
     padding: 10px;
-    margin-block: 10px;
 }
 .gallery-images img { 
-    margin-block: 10px;
+    margin-block: 7px;
     border-radius: 3px;
-    box-shadow: 1px 1px 1px 1px #447ba0;
 }
