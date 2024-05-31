@@ -30,7 +30,7 @@ body {
     line-height: 2em;
     background: #95c4e6;
     color: black;
-    margin: 5px;
+    margin-block: 5px;
     padding: 10px;
     border-radius: 5px;
 }
