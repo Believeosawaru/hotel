@@ -27,7 +27,6 @@ body {
 }
 .menu p {
     text-align: center;
-    /* border-bottom: 1px solid black; */
     line-height: 2em;
     color: black;
     background: #95c4e6;
@@ -87,7 +86,7 @@ h3 span {
     width: 50%;
     margin: 100px 20px 20px 20px;
 }
-.action-btn {
+.action-btn, aside button {
     background: darkslateblue;
     color: white;
     padding: 10px 15px;
