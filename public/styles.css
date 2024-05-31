@@ -8,7 +8,7 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 .menu {
-    background: #abdafc;
+    background: #95c4e6;
     width: 100%;
     position: fixed;
     top: 0;
@@ -27,12 +27,14 @@ body {
 }
 .menu p {
     text-align: left;
+    /* border: 1px solid darkslateblue; */
     line-height: 2em;
-    background: #95c4e6;
     color: black;
-    margin-block: 5px;
-    padding: 10px;
+    background: #98d0f8;
+    margin: 2px 5px;
+    padding: 8px 8px 8px 20px;
     border-radius: 5px;
+    font-weight: bold;
 }
 .menu button {
     background: #95c4e6;
