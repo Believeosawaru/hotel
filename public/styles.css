@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body { 
-    background-color: #abdafc;
+    background-color: #95c4e6;
     font-family: "Roboto Condensed", sans-serif;
 }
 .menu {
@@ -18,7 +18,7 @@ body {
     visibility: hidden;
     opacity: 0;
     margin-left: 350px;
-    transition: all 1s ease;
+    transition: all .5s ease;
 }
 .menu-transit {
     margin-left: 0px;
