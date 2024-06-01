@@ -80,6 +80,16 @@ nav i {
     right: 20px;
     color: #fff;
 }
+.sign-btn {
+    position: absolute;
+    right: 50px;
+    bottom: 18px;
+    background: #95c4e6;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
 h3 span {
     color: darkslateblue;
 }
@@ -136,7 +146,7 @@ section {
 .card img {
     width: 40%;
     height: 150px;
-    margin: 5px 0px 0px 0px;
+    margin: 0px;
 }
 aside { 
     color: black;
@@ -152,7 +162,7 @@ aside h2, p {
     text-align: center;
 }
 aside div {
-    padding: 10px;
+    padding: 7px;
     display: grid;
     justify-items: center;
 }
@@ -162,6 +172,29 @@ aside div {
     padding: 10px;
 }
 .gallery-images img { 
-    margin-block: 7px;
-    border-radius: 3px;
+    margin-block: 1px;
+    border-radius: 8px;
+}
+.openings {
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+}
+.openings div {
+    background: darkslateblue;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 8px;
+}
+.openings div h2 {
+    margin: 0px 0px 5px 0px;
+}
+.openings div button {
+    border: none;
+    background: #95c4e6;
+    padding: 5px 50px;
+    border-radius: 5px;
 }

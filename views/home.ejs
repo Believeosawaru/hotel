@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
     <div class="menu">
         <p>Home</p>
         <p>Bookings</p>
@@ -20,9 +21,16 @@
         <p>Settings</p>
         <div><button onclick="closeMenu();">Close</button></div>
     </div>
+
     <header>
-        <nav> Devina.  <i class="fa fa-bars" onclick="openMenu();"></i> </nav>
+        <nav> 
+            Devina.  
+            <button class="sign-btn">Sign Up</button>
+            <i class="fa fa-bars" onclick="openMenu();"></i>
+        </nav>
+
         <img src="/images/hero.svg" alt="Travelers Image" class="hero-img">
+
         <h3>Discover Your <span>Perfect</span> Stay</h3>
         <button class="action-btn">Book A Reservation</button>
     </header>
@@ -56,9 +64,21 @@
             
             <div class="flexy"><img src="images/image-2.jpg" alt="Interior Hotel Images" width="100%"></div>
         </div>
-        <button>Check Booking Schedule</button>
         </div>
     </aside>
+
+    <section class="openings">
+        <div>
+        <h2>Opening Hours</h2>
+        <h3>Check-in</h3>
+        <p>MONDAYS-FRIDAYS: 5am-11pm</p>
+        <p>WEEKENDS: 4am-1am</p>
+        <h3>Check-out</h3>
+        <p>Any time of the day!</p>
+        <button>Book A Room</button>
+        </div>
+    </section>
+
 </body>
 <script src="script.js"></script>
 </html>
