@@ -195,6 +195,9 @@ aside div {
 .openings div h3 {
     margin-top: 10px;
 }
+.openings div p {
+    font-weight: 250;
+}
 .openings div button {
     border: none;
     background: #95c4e6;
