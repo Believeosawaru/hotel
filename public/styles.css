@@ -76,14 +76,14 @@ nav {
 }
 nav i {
     position: absolute;
-    top: 25px;
+    top: 20px;
     right: 20px;
     color: #fff;
 }
 .sign-btn {
     position: absolute;
     right: 50px;
-    top: 20px;
+    top: 17px;
     background: #95c4e6;
     border: none;
     padding: 3px 8px;
