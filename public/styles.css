@@ -86,7 +86,7 @@ nav i {
     top: 17px;
     background: #95c4e6;
     border: none;
-    padding: 3px 8px;
+    padding: 3px 15px;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -196,7 +196,7 @@ aside div {
     margin-top: 10px;
 }
 .openings div p {
-    font-weight: 250;
+    font-weight: 300;
 }
 .openings div button {
     border: none;
