@@ -209,6 +209,7 @@ aside div {
     text-align: center;
     line-height: 2.1em;
     border-radius: 8px;
+    margin-block: 20px;
 }
 .openings div h2 {
     margin: 0px 0px 7px 0px;
