@@ -2,4 +2,8 @@ const homeController = (req, res, next) => {
     res.render('home');
 }
 
-module.exports = { homeController }
+const notFound = (req, res, next) => {
+    res.render('notFound');
+}
+
+module.exports = { homeController, notFound }
