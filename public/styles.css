@@ -43,9 +43,16 @@ a {
     color: white;
     background: rgb(64, 53, 136);
     margin: 2px 5px;
-    padding: 8px 8px 8px 20px;
+    padding: 8px 8px 8px 8px;
     font-weight: light;
     border-radius: 8px;
+}
+.menu p:last-child {
+    padding: 0px;
+    background: #95c4e6;
+    color: black;
+    margin-top: 15px;
+    font-weight: bold;
 }
 .menu button {
     background: rgb(64, 53, 136);
