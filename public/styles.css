@@ -39,16 +39,18 @@ body {
 .menu button {
     background: rgb(64, 53, 136);
     border: none;
-    padding: 10px 50px;
+    padding: 7px 10px;
     color: white;
     margin: 5px;
     border-radius: 5px;
     margin-top: 20px;
     border-radius: 8px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
 }
 .menu div {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 35px;
 }
 header {
     display: grid;
@@ -197,7 +199,8 @@ aside div {
     margin-top: 10px;
 }
 .openings div p {
-    font-weight: 301;
+    font-weight: 350;
+    font-size: 15px;
 }
 .openings div button {
     border: none;
