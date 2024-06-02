@@ -152,6 +152,7 @@ section {
     opacity: .9;
     color: white;
     box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(51, 34, 165);
+    transform: scale(1.03);
 }
 .card h3 {
     margin: -5px 10px 10px 10px;
