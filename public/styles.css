@@ -274,3 +274,26 @@ form button {
 form a {
     text-decoration: underline;
 }
+footer {
+    background: darkslateblue;
+    padding: 15px;
+    text-align: left;
+    color: white;
+    margin-top: 70px;
+}
+footer p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 2em;
+}
+footer h3 {
+    margin-block: 8px;
+}
+.rights-info {
+    text-align: center;
+    margin-top: 25px;
+}
+.bluish {
+    color: #95c4e6;
+    font-weight: bold;
+}
