@@ -94,6 +94,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 100000;
+    font-family: "Poppins", sans-serif;
 }
 nav i {
     position: absolute;
@@ -145,6 +146,7 @@ section {
     margin: 40px 20px;
 }
 .card {
+    font-family: "Roboto Condensed", sans-serif;
     display: grid;
     justify-items: center;
     border: 1px solid darkslateblue;
@@ -204,7 +206,7 @@ aside div {
 }
 .openings div {
     background: darkslateblue;
-    padding: 10px;
+    padding: 20px 15px;
     color: white;
     width: 100%;
     text-align: center;
@@ -212,10 +214,10 @@ aside div {
     border-radius: 8px;
     margin-block: 20px;
 }
-.openings div h2 {
+.openings div h3 {
     margin: 0px 0px 7px 0px;
 }
-.openings div h3 {
+.openings div h4 {
     margin-top: 10px;
 }
 .openings div p {
