@@ -81,8 +81,8 @@ a {
     color: white;
     position: fixed;
     bottom: 30px;
-    right: 20px;
-    padding: 15px;
+    right: 15px;
+    padding: 5px 10px;
     border-radius: 8px;
 }
 header {
