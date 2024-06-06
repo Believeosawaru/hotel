@@ -87,6 +87,14 @@ a {
     z-index: 1000000;
     border: 1.5px solid #95c4e6;
 }
+.scroller {
+    visibility: hidden;
+    opacity: 0;
+}
+.scroller-transit {
+    visibility: visible;
+    opacity: 1;
+}
 header {
     display: grid;
     justify-items: center;
