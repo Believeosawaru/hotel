@@ -11,6 +11,7 @@ body {
     background-color: #95c4e6;
     /* font-family: "Roboto Condensed", sans-serif; */
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 button:hover, i:hover, a:hover {
     cursor: pointer;
@@ -73,6 +74,16 @@ a {
 }
 .menu div {
     margin-bottom: 35px;
+}
+.up-btn {
+    background:rgb(64, 53, 136);
+    opacity: .9;
+    color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
 }
 header {
     display: grid;
