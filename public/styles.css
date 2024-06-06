@@ -76,7 +76,7 @@ a {
     margin-bottom: 35px;
 }
 .up-btn {
-    background:rgb(64, 53, 136);
+    background: rgb(64, 53, 136);
     opacity: .9;
     color: white;
     position: fixed;
@@ -84,6 +84,8 @@ a {
     right: 15px;
     padding: 5px 10px;
     border-radius: 8px;
+    z-index: 1000000;
+    border: 1.5px solid #95c4e6;
 }
 header {
     display: grid;
