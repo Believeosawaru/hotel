@@ -7,16 +7,41 @@ const notFound = (req, res, next) => {
 }
 
 const signUpController = (req, res, next) => {
-    res.render('signUp')
+    res.render('signUp');
 }
 
 const logInController = (req, res, next) => {
-    res.render('logIn')
+    res.render('logIn');
+}
+
+const bookingsController = (req, res, next) => {
+    res.render('bookings');
+}
+
+const reservationsController = (req, res, next) => {
+    res.render('reservations');
+}
+
+const profileController = (req, res, next) => {
+    res.render('profile');
+}
+
+const paymentController = (req, res, next) => {
+    res.render('payment');
+}
+
+const settingsController = (req, res, next) => {
+    res.render('settings');
 }
 
 module.exports = { 
     homeController, 
     notFound, 
     signUpController,
-    logInController
- }
+    logInController,
+    bookingsController,
+    reservationsController,
+    profileController,
+    paymentController,
+    settingsController
+}
