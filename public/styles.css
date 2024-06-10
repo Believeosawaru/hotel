@@ -7,6 +7,15 @@
     width: 50%;
     margin: 55px 0px 15px 0px;
 }
+.back-2-home {
+    background: darkslateblue;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 9px;
+    margin-top: 20px;
+    font-weight: bold;
+}
 body { 
     background-color: #95c4e6;
     /* font-family: "Roboto Condensed", sans-serif; */
