@@ -16,26 +16,9 @@ function scrollFunction() {
     }
 }
 
-function showFirst() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            document.querySelector('aside').classList.add('show-one');
-    } else {
-        document.querySelector('aside').classList.remove('show-one');
-    }
-}
-
-function showSecond() {
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-            document.querySelector('.openings').classList.add('show-two');
-    } else {
-        document.querySelector('.openings').classList.remove('show-two');
-    }
-}
 
 window.onscroll = () => {
     scrollFunction();
-    showFirst();
-    showSecond();
 }
 
 function headToTop() {
