@@ -17,7 +17,7 @@ function scrollFunction() {
 }
 
 function showFirst() {
-    if (document.body.scrollTop > 170 || document.documentElement.scrollTop > 170) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
             document.querySelector('aside').classList.add('show-one');
     } else {
         document.querySelector('aside').classList.remove('show-one');

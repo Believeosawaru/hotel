@@ -243,7 +243,7 @@ aside div {
     transform: scale(0.1);
     visibility: hidden;
     opacity: 0;
-    transition: all, 2.2s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 .show-two {
     visibility: visible;
