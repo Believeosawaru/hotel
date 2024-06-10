@@ -16,7 +16,7 @@ route.get('/', homeController);
 
 route.get('/sign-up', signUpController);
 
-route.get('/log-in', logInController)
+route.get('/log-in', logInController);
 
 route.get('/bookings', bookingsController);
 

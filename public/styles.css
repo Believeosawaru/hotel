@@ -336,3 +336,102 @@ footer h3 {
 .down {
     margin-top: 30px;
 }
+.pc-links {
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+    .phone-bars {
+        display: none;
+        visibility: hidden;
+    }
+    .pc-links {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        right: 150px;
+    }
+    .pc-links p {
+        margin-inline: 13px;
+        font-weight: normal;
+    }
+    .sign-btn {
+        top: 18px;
+    }
+    .hero-img {
+        width: 30%;
+        margin: 150px 20px 20px 20px;
+    }
+    header h3 {
+        margin: 15px 15px 30px 15px;
+        font-size: 35.5px;
+    }
+    .action-btn {
+        padding: 10px 30px;
+        border-radius: 6px;
+    }
+    .sec-cards {
+        display: flex;
+        margin-block: 80px;
+    }
+    .card {
+        height: 260px;
+    }
+    .sec-cards img {
+        width: 50%;
+        height: 100px;
+        margin: 50px 0px 0px 0px;
+    }
+    .sec-cards h3 {
+        margin: -30px 0px 0px 0px;
+    }
+    aside h3 {
+        font-size: 25px;
+    }
+    aside p {
+        font-size: 18px;
+    }
+    .gallery-images {
+        margin-top: 30px;
+        display: flex;
+        justify-items: center;
+        padding: 10px;
+    }
+    .gallery-images img { 
+        margin-block: 1px;
+        border-radius: 8px;
+    }
+    .openings div {
+        width: 50%;
+        padding-block: 35px;
+    }
+    .openings div h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .openings div h4 {
+        font-size: 18px;
+    }
+    .openings div p {
+        font-size: 15px;
+    }
+    .openings div button {
+        padding: 5px 85px;
+        margin: 15px 0px 5px 0px;
+    }
+    .y-devina {
+        margin: 70px 0px -20px 0px;
+        font-size: 25px;
+    }
+    .sec-cards-2 {
+        display: flex;
+        margin-block: 70px;
+    }
+    .sec-cards-2 img {
+        width: 50%;
+        height: 100px;
+        margin: 50px 0px 0px 0px;
+    }
+    .sec-cards-2 h3 {
+        margin: -30px 0px 0px 0px;
+    }
+}
