@@ -206,6 +206,15 @@ aside {
     border-top-left-radius: 10px;
     display: flex;
     justify-content: center;
+    transform: scale(0.1);
+    transition: all 2.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+.show-one {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
 }
 aside h3 {
     color: darkslateblue;
@@ -231,6 +240,15 @@ aside div {
     padding: 0px 15px;
     display: flex;
     justify-content: center;
+    transform: scale(0.1);
+    visibility: hidden;
+    opacity: 0;
+    transition: all, 2.2s ease-in-out;
+}
+.show-two {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
 }
 .openings div {
     background: darkslateblue;
