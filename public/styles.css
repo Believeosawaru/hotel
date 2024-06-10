@@ -207,7 +207,7 @@ aside {
     display: flex;
     justify-content: center;
     transform: scale(0.1);
-    transition: all 2.3s ease-in-out;
+    transition: all 3s ease-in-out;
     visibility: hidden;
     opacity: 0;
 }
