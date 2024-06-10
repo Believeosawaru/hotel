@@ -8,7 +8,7 @@ const {
     profileController,
     paymentController,
     settingsController
-    } = require('../controllers/controllers');
+} = require('../controllers/controllers');
 
 const route = express.Router();
 
