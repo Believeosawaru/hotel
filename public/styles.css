@@ -434,4 +434,47 @@ footer h3 {
     .sec-cards-2 h3 {
         margin: -30px 0px 0px 0px;
     }
+    .sign-up-image {
+        width: 20%;
+        margin-block: 40px;
+    }
+    form {
+        border: 1px solid darkslateblue;
+        padding: 15px;
+        border-radius: 10px;
+        width: 65%;
+    }
+    form label {
+        font-size: 15px;
+    }
+    form p {
+        font-size: 15px;
+    }
+    form input {
+        margin: 5px 0px 20px;
+        padding: 5px 40px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        width: 100%;
+    }
+    form button {
+        background: darkslateblue;
+        padding: 7px 20px;
+        width: 80%;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        margin: 20px 0px 10px 0px;
+    }
+    form a {
+        text-decoration: underline;
+    }
+    .flex-pc {
+        display: flex;
+        justify-content: space-around;
+    }
+    .margin-topper {
+        margin: 20px 0px -10px 0px;
+    }
 }
